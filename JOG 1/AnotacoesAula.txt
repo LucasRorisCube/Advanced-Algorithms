@@ -1,0 +1,46 @@
+bbbb
+
+abbb
+
+azbb
+
+n = 0 L
+n = 1 W
+n = 2 W
+n = 3 W
+n = 4 L
+n = 5 W
+n = 6 W
+n = 7 W
+n = 8 L
+
+01 10 11
+
+01 10 => 11 11 => 00
+01 11 => 10 10 => 0
+
+2n-1 =: 2(n+1)-1 => 2n +2 -1 => 2n+1
+
+P(n) = 1+3+5+7...+(2n-1)
+P(n+1) = 1+3+5+7...+(2n+1)
+
+
+001
+001
+001
+
+001
+
+3
+a
+bbbb
+az
+
+https://www.interviewbit.com/blog/lexicographically-smallest-string/
+combinatorial game theory
+http://math.sfsu.edu/badmath/abs_2004-2005_spring/berlekamp.htm
+nim game
+grundy number
+mex grundy number
+https://acm.njupt.edu.cn/
+https://cp-algorithms.com/game_theory/sprague-grundy-nim.html#introduction
